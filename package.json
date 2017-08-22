@@ -1,0 +1,16 @@
+{
+  "name": "log4jstest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/server",
+    "prebuild": "rimraf dist/",
+    "build": "NODE_ENV='production' webpack"
+  },
+  "dependencies": {
+    "log4js": "^2.3.3",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.5.5"
+  }
+}
